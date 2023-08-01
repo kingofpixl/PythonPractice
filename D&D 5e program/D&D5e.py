@@ -58,7 +58,6 @@ dropDown.pack()
 def ok():
     print ("value is:" + menu.get())
 
-
 button = tk.Button(frame, text="OK", command=ok)
 button.pack()
 
